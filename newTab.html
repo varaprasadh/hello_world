@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>newTab</title>
+    <link rel="stylesheet" href="./css/newTab.css">
+    <script src="./js/newTab.js"></script>
+</head>
+<body>
+     <img src="./images/background.svg" alt="background" class="background">
+    <div class="container">
+        <div class="main">
+            <img src="./images/fire.svg" alt="fire" class="logo">
+            <div class="title">Hello World!</div>
+            <div class="searchbar-wrapper">
+                <input type="text" placeholder="search here..." class="search-bar">
+                <div class="search-icon">
+                    <img src="./images/search_icon.png" alt="search icon">
+                </div>
+            </div>
+            <div class="top-sites"> </div>
+        </div>
+    </div>
+
+  <template class="list-item-template">
+    <a class="list-item">
+        <div class="icon">
+            <div class="site-icon"></div>
+        </div>
+        <div class="label">
+            this is some name of the site
+        </div> 
+        <div class="overlay"></div>
+    </a>
+  </template>
+</body>
+</html>
